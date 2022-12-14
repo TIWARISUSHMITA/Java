@@ -1,0 +1,17 @@
+checked exception atmts				required checked exception class name
+------------------------			----------------------------
+1. Class.forName("")				ClassNotFoundExcepption
+2. clone()					cloneNotSupportedException
+3. sleep(), joim(), wait()			IntrruptedException
+4. parse("")					ParseException
+5. Every JDBC stmt				SQLException
+
+6. every file insertiom atmt			   IOException
+                                                        ^
+							|
+							|
+						FileNotFoundException
+
+/*
+IOException is super class to file not exception
+*/
